@@ -14,7 +14,7 @@ document.getElementById("LoginForm").addEventListener("submit", function(event) 
     // Lấy giá trị của username và password
     var username = document.getElementsByName("username")[0].value;
     var password = document.getElementsByName("password")[0].value;
-
+    
     // Sau khi xác thực, chuyển hướng đến trang Home.html
     window.location.href = "/test/Home_Main/Home.html";
 });
