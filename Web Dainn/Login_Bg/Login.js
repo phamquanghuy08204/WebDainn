@@ -15,8 +15,6 @@ document.getElementById("LoginForm").addEventListener("submit", function(event) 
     var username = document.getElementsByName("username")[0].value;
     var password = document.getElementsByName("password")[0].value;
 
-    // Kiểm tra thông tin đăng nhập ở đây nếu cần
-
     // Sau khi xác thực, chuyển hướng đến trang Home.html
     window.location.href = "/test/Home_Main/Home.html";
 });
