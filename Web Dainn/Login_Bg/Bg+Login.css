@@ -89,7 +89,7 @@ input[type="submit"] {
 body {
     font-family: 'Share Tech', sans-serif;
     background: black;
-    background-image: radial-gradient(circle at center, white 0%, #222 10%, black 60%);
+    background-image: radial-gradient(circle at center, rgb(226, 223, 223) 6%, #222 15%, black 40%);
     overflow: hidden;
 }
 
