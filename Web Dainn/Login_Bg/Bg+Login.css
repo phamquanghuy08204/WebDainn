@@ -24,7 +24,7 @@ html, body, .wrap {
     width: 550px;
     height: 400px;
     display: none;
-    transition: 0.7s;
+    transition: 0.8s;
 }
 
 form input {
@@ -83,13 +83,13 @@ input[type="submit"] {
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------- */
 
- 
+
 
 
 body {
     font-family: 'Share Tech', sans-serif;
     background: black;
-    background-image: radial-gradient(circle at center, white 0%, #222 10%, black 60%);
+    background-image: radial-gradient(circle at center, rgb(226, 223, 223) 6%, #222 15%, black 40%);
     overflow: hidden;
 }
 
@@ -4137,8 +4137,8 @@ body {
 }
 
 .btn-start :hover{
-  background: #ea0e0e;
-  transition: 0.7s;
+  background: rgb(174, 16, 16);
+  transition: 0.8s;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------- */
